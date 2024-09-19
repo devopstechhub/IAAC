@@ -1,0 +1,6 @@
+--2024-09-19 02:22:06--  https://media.licdn.com/dms/image/D4D12AQF1jcnJOfDkyA/article-cover_image-shrink_720_1280/0/1682254147620?e=2147483647
+Resolving media.licdn.com (media.licdn.com)... 152.199.24.163, 2606:2800:21f:fedd:8b7a:88ab:fc7e:fa3b
+Connecting to media.licdn.com (media.licdn.com)|152.199.24.163|:443... connected.
+HTTP request sent, awaiting response... 403 Forbidden
+2024-09-19 02:22:06 ERROR 403: Forbidden.
+
