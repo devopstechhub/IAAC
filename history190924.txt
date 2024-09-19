@@ -1,0 +1,45 @@
+    1  curl -fsSL https://apt.releases.hashicorp.com/gpg | sudo apt-key add -
+    2  sudo apt-add-repository "deb [arch=amd64] https://apt.releases.hashicorp.com $(lsb_release -cs) main"
+    3  sudo apt update && sudo apt install terraform -y
+    4  terraform --version
+    5  mkdir exercise1
+    6  cd exercise1/
+    7  ls
+    8  vim main.tf
+    9  terraform init
+   10  terraform validate
+   11  vim main.tf 
+   12  terraform validate
+   13  vim main.tf 
+   14  terraform validate
+   15  terraform plan
+   16  terraform apply
+   17  terraform destroy
+   18  history
+   19  cd ..
+   20  ls
+   21  ssh-keygen
+   22  ssh-keygen -t rsa
+   23  cat .ssh/id_rsa.pub 
+   24  git clone git@github.com:devopstechhub/IAAC.git
+   25  ls
+   26  mv exercise1/ IAAC/
+   27  cd IAAC/
+   28  ls
+   29  history > history190924.txt
+   30  git status
+   31  git add .
+   32  git status
+   33  git add .
+   34  ls
+   35  ls -a exercise1/
+   36  cd exercise1/
+   37  ls
+   38  cat terraform.tfstate
+   39  ls
+   40  ls -a
+   41  cd ..
+   42  git branch
+   43  vim .gitignore
+   44  git add .
+   45  history > history190924.txt 
