@@ -1,0 +1,91 @@
+    1  curl -fsSL https://apt.releases.hashicorp.com/gpg | sudo apt-key add -
+    2  sudo apt-add-repository "deb [arch=amd64] https://apt.releases.hashicorp.com $(lsb_release -cs) main"
+    3  sudo apt update && sudo apt install terraform -y
+    4  terraform --version
+    5  mkdir exercise1
+    6  cd exercise1/
+    7  ls
+    8  vim main.tf
+    9  terraform init
+   10  terraform validate
+   11  vim main.tf 
+   12  terraform validate
+   13  vim main.tf 
+   14  terraform validate
+   15  terraform plan
+   16  terraform apply
+   17  terraform destroy
+   18  history
+   19  cd ..
+   20  ls
+   21  ssh-keygen
+   22  ssh-keygen -t rsa
+   23  cat .ssh/id_rsa.pub 
+   24  git clone git@github.com:devopstechhub/IAAC.git
+   25  ls
+   26  mv exercise1/ IAAC/
+   27  cd IAAC/
+   28  ls
+   29  history > history190924.txt
+   30  git status
+   31  git add .
+   32  git status
+   33  git add .
+   34  ls
+   35  ls -a exercise1/
+   36  cd exercise1/
+   37  ls
+   38  cat terraform.tfstate
+   39  ls
+   40  ls -a
+   41  cd ..
+   42  git branch
+   43  vim .gitignore
+   44  git add .
+   45  history > history190924.txt 
+   46  git add .
+   47  git commit -m "Exercise 1 - Creating S3 Bucket"
+   48  git push
+   49  ls
+   50  apt install wget -y
+   51  mkdir img
+   52  cd img/
+   53  wget https://stacksimplify.com/course-images/azure-terraform-workflow-1.png
+   54  ls
+   55  wget https://wmpromus.com/app/uploads/2023/03/terraform-1024x512.png
+   56  ls
+   57  wget https://miro.medium.com/v2/resize:fit:1400/0*oGG3Biue7YEPQOe8
+   58  wget https://media.licdn.com/dms/image/D4D12AQF1jcnJOfDkyA/article-cover_image-shrink_720_1280/0/1682254147620?e=2147483647&v=beta&t=ew0xWnW6Dc7zyRYjeMv9Y-PY1kkl3yEfW_-XFiF19es
+   59  git add .
+   60  git commit -m "Exercise 1 - Creating S3 Bucket"
+   61  git push
+   62  vim ../exercise1/main.tf 
+   63  ls
+   64  cd IAAC/
+   65  ls
+   66  cp -r exercise1/ exercise2
+   67  ls
+   68  cd exercise2/
+   69  ls
+   70  vim main.tf 
+   71  ls
+   72  vim provider.tf
+   73  ls
+   74  vim vars.tf
+   75  vim provider.tf 
+   76  vim main.tf 
+   77  vim provider.tf 
+   78  cat vars.tf 
+   79  cat provider.tf 
+   80  terraform init
+   81  terraform fmt
+   82  vim main.tf 
+   83  terraform fmt
+   84  vim main.tf 
+   85  terraform validate
+   86  terraform plan
+   87  terraform apply
+   88  terraform destroy
+   89  ls
+   90  cd ..
+   91  history > history230924.txt
